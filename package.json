@@ -1,0 +1,49 @@
+{
+  "name": "movies",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=prod node ./dist/www",
+    "dev": "NODE_ENV=dev nodemon ./dist/www"
+  },
+  "engines": {
+    "node": "10.15"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^19.1.1",
+    "axios": "^0.19.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.9.0",
+    "base64-stream": "^0.1.3",
+    "body-parser": "^1.8.4",
+    "boom": "^6.0.0",
+    "cookie-parser": "^1.3.5",
+    "csvjson-csv2json": "^5.0.6",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^4.0.0",
+    "express": "^4.9.8",
+    "fast-csv": "^4.1.0",
+    "file-saver": "^2.0.2",
+    "hapi": "^16.6.3",
+    "hapi-auth-jwt2": "^7.4.1",
+    "hapi-cors-headers": "^1.0.3",
+    "hjs": "~0.0.6",
+    "http": "0.0.0",
+    "inert": "^4.2.1",
+    "joi": "^13.6.0",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.1.13",
+    "mongoosastic": "^4.5.1",
+    "mongoose": "^5.9.1",
+    "morgan": "^1.3.2",
+    "react": "^15.6.2",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "accounting": "^0.4.1",
+    "babel-loader": "^6.2.4",
+    "nodemon": "^1.19.4",
+    "webpack": "^1.13.1"
+  }
+}
