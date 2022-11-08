@@ -42,8 +42,8 @@
   },
   "devDependencies": {
     "accounting": "^0.4.1",
-    "babel-loader": "^6.2.4",
+    "babel-loader": "^9.1.0",
     "nodemon": "^1.19.4",
-    "webpack": "^1.13.1"
+    "webpack": "^5.74.0"
   }
 }
